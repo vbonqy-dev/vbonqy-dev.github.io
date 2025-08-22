@@ -773,7 +773,7 @@
         .header-buttons {
   display: flex;
   gap: 10px;
-  margin-left: 5px; 
+  margin-left: 0px; 
   padding: 0 15px;
 }
 
@@ -801,6 +801,7 @@
   height: 20px;
 
 }
+
 
 
 
