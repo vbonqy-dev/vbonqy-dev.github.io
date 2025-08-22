@@ -799,4 +799,139 @@
 .header-btn img {
   width: 20px;
   height: 20px;
+
+}
+
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+  }
+  
+  nav {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    margin: 5px 0;
+    padding: 10px;
+  }
+  
+
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .project-card {
+    padding: 15px;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 15px 10px;
+  }
+  
+  .header-buttons {
+    margin-top: 15px;
+    margin-left: 0;
+    justify-content: center;
+  }
+  
+ 
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+ 
+  input, textarea, button {
+    font-size: 16px; 
+    min-height: 44px;
+  }
+  
+
+  .container {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+
+  .section {
+    padding: 20px 10px;
+  }
+  
+
+  .btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  
+  .container {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
+
+
+@media (hover: none) and (pointer: coarse) {
+  
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+  .clickable {
+    padding: 15px;
+  }
+}
+
+
+@media (max-width: 768px) and (orientation: portrait) {
+  .content {
+    padding: 15px 5px;
+  }
+}
+
+
+@media (max-width: 768px) and (orientation: landscape) {
+  body {
+    font-size: 15px;
+  }
+  
+  .header {
+    padding: 10px 5px;
+  }
 }
