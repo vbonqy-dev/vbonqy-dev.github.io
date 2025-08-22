@@ -804,63 +804,6 @@
 
 
 
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-    line-height: 1.5;
-    padding: 10px;
-  }
-  
-  nav {
-    flex-direction: column;
-    padding: 10px 0;
-  }
-  
-  nav a {
-    margin: 5px 0;
-    padding: 10px;
-  }
-  
-
-  .project-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 10px;
-  }
-  
-  .project-card {
-    padding: 15px;
-  }
-
-  header {
-    flex-direction: column;
-    padding: 15px 10px;
-  }
-  
-  .header-buttons {
-    margin-top: 15px;
-    margin-left: 0;
-    justify-content: center;
-  }
-  
- 
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
- 
-  input, textarea, button {
-    font-size: 16px; 
-    min-height: 44px;
-  }
-  
-
-  .container {
-    width: 100%;
-    overflow-x: hidden;
-  }
-}
 
 
 
