@@ -3,16 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Vbonqy — разработчик</title>
-    <meta name="description" content="Vbonqy — разработчик программ, веб-приложений и инструментов для разработчиков. Проекты и контакты.">
+    <title>Vbonqy — разработчик | Veles AI — ИИ-компаньон для ПК</title>
+    <meta name="description" content="Vbonqy (Vbonqydev) — разработчик. Veles (Велес) — ИИ-компаньон для ПК на C++ и Python: автоматизация, системная интеграция, ассистент. Портфолио и контакты.">
+    <meta name="keywords" content="Veles, Veles AI, Велес, Велес ИИ, Vbonqy, Vbonqydev, vbonqy dev, vbonqy developer, ИИ-компаньон, AI companion, C++, Python">
     <meta name="author" content="Vbonqy">
+    <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="theme-color" content="#050505">
-    <meta property="og:title" content="Vbonqy — разработчик">
-    <meta property="og:description" content="Программы, веб-приложения и инструменты для разработчиков.">
+    <link rel="canonical" href="https://vbonqy-dev.github.io/">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vbonqy-dev.github.io/">
+    <meta property="og:title" content="Vbonqy — разработчик | Veles AI — ИИ-компаньон для ПК">
+    <meta property="og:description" content="Veles (Велес) — ИИ-компаньон для ПК. Vbonqy — разработчик программ, веб-приложений и инструментов.">
     <meta property="og:locale" content="ru_RU">
-    <meta property="og:image" content="src/logo.png">
+    <meta property="og:site_name" content="Vbonqy">
+    <meta property="og:image" content="https://vbonqy-dev.github.io/src/logo.png">
+    <meta property="og:image:alt" content="Vbonqy logo">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Vbonqy — разработчик | Veles AI">
+    <meta name="twitter:description" content="Veles (Велес) — ИИ-компаньон для ПК. Портфолио Vbonqy / Vbonqydev.">
+    <meta name="twitter:image" content="https://vbonqy-dev.github.io/src/logo.png">
     <link rel="icon" type="image/png" href="src/logo.png">
     <link rel="stylesheet" href="styles.css">
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://vbonqy-dev.github.io/#person",
+          "name": "Vbonqy",
+          "alternateName": ["Vbonqydev", "vbonqy-dev", "Vbonqy Developer"],
+          "url": "https://vbonqy-dev.github.io/",
+          "sameAs": [
+            "https://github.com/vbonqy-dev",
+            "https://t.me/VbonqyDeveloper"
+          ],
+          "jobTitle": "Developer",
+          "description": "Разработчик программ, веб-приложений и инструментов для разработчиков. Автор Veles — ИИ-компаньона для ПК.",
+          "knowsAbout": ["C++", "Python", "JavaScript", "веб-разработка", "ИИ-ассистенты"]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://vbonqy-dev.github.io/#website",
+          "url": "https://vbonqy-dev.github.io/",
+          "name": "Vbonqy — разработчик",
+          "description": "Портфолио Vbonqy. Проект Veles (Велес) — ИИ-компаньон для ПК.",
+          "publisher": { "@id": "https://vbonqy-dev.github.io/#person" },
+          "inLanguage": "ru"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Veles",
+          "alternateName": ["Veles AI", "Велес", "Велес ИИ", "VELES"],
+          "applicationCategory": "UtilitiesApplication",
+          "operatingSystem": "Windows, Linux, macOS",
+          "description": "Veles (Велес) — ИИ-компаньон для ПК с ядром на C++. Автоматизация, запуск приложений, работа с файлами и низкоуровневое взаимодействие с ОС. Сочетает скорость нативного приложения с гибкостью ИИ-ассистента.",
+          "author": { "@id": "https://vbonqy-dev.github.io/#person" },
+          "creator": { "@id": "https://vbonqy-dev.github.io/#person" },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "price": "0",
+            "priceCurrency": "RUB"
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <canvas id="space-canvas" aria-hidden="true"></canvas>
@@ -20,7 +80,7 @@
     <header class="header">
         <div class="container header-inner">
             <a href="#home" class="logo" aria-label="Vbonqy">
-                <img src="src/logo.png" alt="" width="32" height="32">
+                <img src="src/logo.png" alt="Vbonqy" width="32" height="32">
                 <span>BONQY</span>
             </a>
             <nav class="nav glass">
@@ -47,10 +107,10 @@
             <div class="container hero-inner">
                 <div class="hero-content">
                     <h1 class="wordmark" aria-label="Vbonqy">
-                        <img src="src/logo.png" alt="">
+                        <img src="src/logo.png" alt="Vbonqy logo">
                         <span>BONQY</span>
                     </h1>
-                    <p class="hero-desc">Пишу программы, веб-приложения, веб-сайты и инструменты для разработчиков.</p>
+                    <p class="hero-desc">Пишу программы, веб-приложения, веб-сайты и инструменты для разработчиков. Автор Veles — ИИ-компаньона для ПК.</p>
                     <div class="hero-actions">
                         <a href="#projects" class="btn btn-primary">Проекты</a>
                         <a href="#contact" class="btn">Связаться</a>
@@ -67,18 +127,20 @@
                 <div class="projects">
                     <article class="project project-featured glass spot reveal">
                         <div class="project-cover">
-                            <img src="src/VelesAssistent.png" alt="Photo UI Veles">
+                            <img src="src/VelesAssistent.png" alt="Veles AI — интерфейс ИИ-компаньона Велес для ПК">
                         </div>
                         <div class="project-body">
                             <div class="project-meta">
                                 <span class="status">В разработке</span>
                                 <span>2026</span>
                             </div>
-                            <h3>Veles</h3>
-                            <p>— это ИИ-компаньон для ПК с ядром на C++. Основная логика, системная интеграция и управление компьютером реализованы на C++:  запуск приложений, автоматизация действий, работа с файлами и низкоуровневое взаимодействие с ОС. VELES сочетает скорость нативного приложения с гибкостью ИИ-ассистента.</p>
+                            <h3>Veles — ИИ-компаньон (Велес AI)</h3>
+                            <p><strong>Veles</strong> (Велес, Veles AI) — это ИИ-компаньон для ПК с ядром на C++. Основная логика, системная интеграция и управление компьютером реализованы на C++: запуск приложений, автоматизация действий, работа с файлами и низкоуровневое взаимодействие с ОС. VELES сочетает скорость нативного приложения с гибкостью ИИ-ассистента. Разработчик — Vbonqy (Vbonqydev).</p>
                             <div class="tags">
                                 <span>C++</span>
                                 <span>Python</span>
+                                <span>AI</span>
+                                <span>ИИ</span>
                             </div>
                             <!-- скрыто до релиза, а ты внимателен ^_^
                             <div class="project-links">
@@ -149,8 +211,8 @@
                 </header>
                 <div class="about">
                     <div class="about-lead reveal">
-                        <p class="lead">Студент. Больше двух лет пишу бэкенд, инструменты для разработчиков, веб-сайты и веб-приложения.</p>
-                        <p>Предпочитаю понятный код и простые решения: небольшая программа, которая надёжно делает своё дело, лучше большой, которую страшно трогать.</p>
+                        <p class="lead">Студент. Больше двух лет пишу бэкенд, инструменты для разработчиков, веб-сайты и веб-приложения. Работаю под ником Vbonqy / Vbonqydev.</p>
+                        <p>Предпочитаю понятный код и простые решения: небольшая программа, которая надёжно делает своё дело, лучше большой, которую страшно трогать. Сейчас разрабатываю <strong>Veles</strong> — ИИ-компаньон (Велес AI) для ПК.</p>
                     </div>
                     <dl class="facts glass spot reveal">
                         <div>
@@ -216,10 +278,10 @@
     <footer class="footer">
         <div class="container footer-inner">
             <a href="#home" class="logo" aria-label="Vbonqy">
-                <img src="src/logo.png" alt="" width="20" height="20">
+                <img src="src/logo.png" alt="Vbonqy" width="20" height="20">
                 <span>BONQY</span>
             </a>
-            <span>© 2026 Vbonqy</span>
+            <span>© 2026 Vbonqy · Veles AI</span>
             <a href="#home" class="link-arrow link-up">Наверх</a>
         </div>
     </footer>
